@@ -74,7 +74,7 @@
 						
 						<!-- Logo -->
 							<h2 id="logo">河北师范大学勤助中心报名系统</a></h2>
-							<div id="yewu" onclick="toYewu()">业务报名</div>
+							<div id="yewu">业务报名</div>
 							<div id="jiange">&nbsp;</div>
 							<div id="xiaoneigang">校内岗报名</div>
 						<!-- Nav -->
