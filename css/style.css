@@ -37,6 +37,7 @@
 	body
 	{
 		background: #f0f0f0;
+		height: 100%;
 	}
 
 	body,input,textarea,select
@@ -995,32 +996,8 @@
 		background: #fff;
 	}
 	
-	#footer-wrapper
-	{
-		position: relative;
-		overflow: hidden;
-		border-top: solid 2px #e5e5e5;
-		background: #f0f0f0;
-	}
+
 	
-		#footer-wrapper form input.text,
-		#footer-wrapper form select,
-		#footer-wrapper form textarea
-		{
-			background: #f7f7f7;
-		}
-		
-			#footer-wrapper form input.text:focus,
-			#footer-wrapper form select:focus,
-			#footer-wrapper form textarea:focus
-			{
-				background: #fff;
-			}
-		
-		#footer-wrapper h2
-		{
-			text-align: center;
-		}
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -1029,8 +1006,7 @@
 	#header
 	{
 		position: relative;
-		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+		
 	}
 
 		#header h1
