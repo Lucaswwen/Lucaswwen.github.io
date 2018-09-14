@@ -12,33 +12,52 @@
 		<script src="js/skel.min.js"></script>
 		<style>
 			#yewu{
-				background-color: #E9967A;
+				background-color: #F1F100;
 				width: 80%;
-				height: 100px;
+				height: 80px;
 				margin: 0 auto;
 				text-align: center;
-				color: #ffffff;
-				line-height:100px;
-				font-family: Lobster, Monospace;
-				font-size: 18px;
+				color: #343434;
+				line-height: 100px;
+				font-family: 黑体;
+				font-size: 20px;
+				font-weight: 200;
+				-webkit-border-radius: 20px;
+				-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+				-webkit-box-shadow: 0 0 30px 5px rgba(0,0,0,0.1);
+				display:flex;
+				justify-content:center;
+				align-items:center;
 			}
 
 			#xiaoneigang{
 				
-				background-color: #94263f;
+				background-color: #F1F100;
 				width: 80%;
-				height: 100px;
+				height: 80px;
 				margin: 0 auto;
 				text-align: center;
-				color: #ffffff;
-				line-height:100px;
-				font-family: Lobster, Monospace;
-				font-size: 18px;
+				color: #343434;
+				line-height: 100px;
+				font-family: 黑体;
+				font-size: 20px;
+				font-weight: 200;
+				-webkit-border-radius: 20px;
+				-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+				-webkit-box-shadow: 0 0 30px 5px rgba(0,0,0,0.1);
+				 display:flex;
+				 justify-content:center;
+				 align-items:center;
+			}
+			.button_img {
+				margin-right: 10px;
 			}
 
-
-			h2 {
-			font-family: Lobster, Monospace;
+			#tittle {
+				font-size: 20px;
+				color: #343434;
+				margin-bottom: 35px;
+				width: 100%;
 			}
 			#jiange{
 				margin: 0;
@@ -47,10 +66,19 @@
 			}
 
 			.smaller-image {
-			width: 100px;
+				width: 100px;
+			}
+			.button_content {
+				      display:flex;
+             justify-content:center;
+             align-items:center;
+	
+		
+			}
+			.button_text{
+				line-height: 50px; 
 			}
 			</style>
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	</head>
 	<body  height="100%" >
 
@@ -61,10 +89,20 @@
 					<div id="header">
 						
 						<!-- Logo -->
-							<h2 id="logo">河北师范大学勤助中心报名系统</a></h2>
-							<div id="yewu" onclick="toYewu()">业务报名</div>
+							<div id="tittle"><img src="images/logo-top.png" width="80%"/></div>
+							<div id="yewu" onclick="toYewu()">
+								<div class="button_content">
+									<img src="images/test.png" height="38px" class="button_img"/>
+									<span class="button_text">业务报名</span>
+								</div>
+							</div>
 							<div id="jiange">&nbsp;</div>
-							<div id="xiaoneigang" onclick="toXiaoneigang()">校内岗报名</div>
+							<div id="xiaoneigang" onclick="toXiaoneigang()">
+								<div class="button_content">
+									<img src="images/test2.png" height="38px" class="button_img"/>
+									<span class="button_text">校内岗报名</span>
+								</div>
+							</div>
 					
 					</div>
 

@@ -1009,7 +1009,7 @@
 		
 	}
 
-		#header h1
+		#header h2
 		{
 			font-family: 'Arvo';
 			font-weight: 700;
@@ -1017,7 +1017,7 @@
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 		}
 
-			#header h1 a
+			#header h2 a
 			{
 				border: 0;
 			}
