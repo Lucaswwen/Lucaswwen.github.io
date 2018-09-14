@@ -31,7 +31,7 @@
 			}
 			#content-wapper{
 			
-				margin-top: 20%;
+				
 			}
 			#xiaoneigang{
 				
@@ -102,7 +102,7 @@
 					<div id="header">
 						
 						<!-- Logo -->
-							<div id="tittle"><img src="images/logo-top.png" width="80%"/></div>
+							<div id="tittle"><img src="images/logo-to.png" width="80%"/></div>
 							<div id="yewu" onclick="toYewu()">
 								<div class="button_content">
 									<img src="images/test.png" height="38px" class="button_img"/>
