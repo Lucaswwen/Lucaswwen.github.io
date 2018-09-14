@@ -13,7 +13,7 @@
 		<style>
 			#yewu{
 				background-color: #F1F100;
-				width: 80%;
+				width: 88%;
 				height: 70px;
 				margin: 0 auto;
 				text-align: center;
@@ -36,7 +36,7 @@
 			#xiaoneigang{
 				
 				background-color: #F1F100;
-				width: 80%;
+				width: 88%;
 				height: 70px;
 				margin: 0 auto;
 				text-align: center;
@@ -87,7 +87,7 @@
 				 
 			}
 			#bottom_content{
-				margin: 0px 0px 30px 0px;
+				margin: 0px 0px 20px 0px;
 				font-size: 10px;
 				background-color: #Ffffff;
 			}
@@ -103,18 +103,18 @@
 					<div id="header">
 						
 						<!-- Logo -->
-							<div id="tittle"><img src="images/logo-to.png" width="80%"/></div>
+							<div id="tittle"><img src="images/logo.png" width="88%"/></div>
 							<div id="yewu" onclick="toYewu()">
 								<div class="button_content">
 									<img src="images/test.png" height="38px" class="button_img"/>
-									<span class="button_text">业务报名</span>
+									<span class="button_text">校外业务报名</span>
 								</div>
 							</div>
 							<div id="jiange">&nbsp;</div>
 							<div id="xiaoneigang" onclick="toXiaoneigang()">
 								<div class="button_content">
 									<img src="images/test2.png" height="38px" class="button_img"/>
-									<span class="button_text">校内岗报名</span>
+									<span class="button_text" style="letter-spacing:4px;">校内岗报名</span>
 								</div>
 							</div>
 					
