@@ -43,7 +43,7 @@
 				color: #343434;
 		
 				font-family: 黑体;
-				font-size: 17px;
+				font-size: 15px;
 				font-weight: 200;
 				-webkit-border-radius: 20px;
 				-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -60,7 +60,7 @@
 				margin: 0 auto;
 				text-align: center;
 				color: #343434;
-				line-height: 100px;
+				line-height: 30px;
 				font-family: 黑体;
 				font-size: 17px;
 				font-weight: 200;
@@ -144,8 +144,8 @@
 							<div id="jiange">&nbsp;</div>
 							<div id="jiajiaozhipai" onclick="toJiajiaozhipai()">
 								<div class="button_content">
-								
-									<span style="letter-spacing:2px;">校外直派家教报名<br/>(白名单同学)</span>
+								<img src="images/test3.png" height="38px" class="button_img"/>
+									<span style="letter-spacing:2px;line-height:20px;">校外直派家教报名<br/>(白名单同学)</span>
 								</div>
 							</div>
 					
@@ -172,8 +172,8 @@
 		var isAndroid = ua.indexOf('android') != -1;
 		var isIos = (ua.indexOf('iphone') != -1) || (ua.indexOf('ipad') != -1);
 		if (!isWeixin) {
-		    document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css">';
-		    document.body.innerHTML = '<div class="weui_msg"><div class="weui_icon_area"><i class="weui_icon_info weui_icon_msg"></i></div><div class="weui_text_area"><h4 class="weui_msg_title">请在微信客户端打开链接</h4></div></div>';
+		   document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css">';
+		   document.body.innerHTML = '<div class="weui_msg"><div class="weui_icon_area"><i class="weui_icon_info weui_icon_msg"></i></div><div class="weui_text_area"><h4 class="weui_msg_title">请在微信客户端打开链接</h4></div></div>';
 		}
 
 		function toYewu(){
