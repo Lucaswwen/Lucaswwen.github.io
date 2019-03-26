@@ -33,6 +33,25 @@
 			
 				
 			}
+
+			#jiajiaozhipai{
+				background-color: #F1F100;
+				width: 88%;
+				height: 70px;
+				margin: 0 auto;
+				text-align: center;
+				color: #343434;
+		
+				font-family: 黑体;
+				font-size: 17px;
+				font-weight: 200;
+				-webkit-border-radius: 20px;
+				-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+				-webkit-box-shadow: 0 0 30px 5px rgba(0,0,0,0.1);
+				display:flex;
+				justify-content:center;
+				align-items:center;
+			}
 			#xiaoneigang{
 				
 				background-color: #F1F100;
@@ -122,6 +141,13 @@
 									<span class="button_text" style="letter-spacing:5px;">校内岗报名</span>
 								</div>
 							</div>
+							<div id="jiange">&nbsp;</div>
+							<div id="jiajiaozhipai" onclick="toJiajiaozhipai()">
+								<div class="button_content">
+								
+									<span style="letter-spacing:2px;">校外直派家教报名<br/>(白名单同学)</span>
+								</div>
+							</div>
 					
 					</div>
 
@@ -133,30 +159,31 @@
 						<script type="text/javascript" src="//quote.51.la/q?id=19660263&mb=5"></script>
 					</div>
 					<div>
-						版权所有© Copyright 2003-2018&nbsp;河北师范大学勤助中心<br/><br/>
+						版权所有© Copyright 2003-2019&nbsp;河北师范大学勤助中心<br/><br/>
 					</div>
-				</div>
-				
-				
+				</div>		
 			</div>
 		</div>
-		<script type="text/javascript" src="//quote.51.la/q?id=19660263&mb=5"></script>
+		
 		</body>
 	<script>
 		var ua = navigator.userAgent.toLowerCase();
 		var isWeixin = ua.indexOf('micromessenger') != -1;
 		var isAndroid = ua.indexOf('android') != -1;
 		var isIos = (ua.indexOf('iphone') != -1) || (ua.indexOf('ipad') != -1);
-		if (!isWeixin) {
-		   document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css">';
-		   document.body.innerHTML = '<div class="weui_msg"><div class="weui_icon_area"><i class="weui_icon_info weui_icon_msg"></i></div><div class="weui_text_area"><h4 class="weui_msg_title">请在微信客户端打开链接</h4></div></div>';
-		}
+		// if (!isWeixin) {
+		//    document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css">';
+		//    document.body.innerHTML = '<div class="weui_msg"><div class="weui_icon_area"><i class="weui_icon_info weui_icon_msg"></i></div><div class="weui_text_area"><h4 class="weui_msg_title">请在微信客户端打开链接</h4></div></div>';
+		// }
 
 		function toYewu(){
 			window.location.href='https://jinshuju.net/f/sEEeRM';
 		}
 		function toXiaoneigang(){
 			window.location.href='https://jinshuju.net/f/l3n8OQ';
+		}
+		function toJiajiaozhipai(){
+			window.location.href='https://jinshuju.net/f/dteJHC';
 		}
 	</script>
 </html>
