@@ -29,10 +29,6 @@
 				justify-content:center;
 				align-items:center;
 			}
-			#content-wapper{
-			
-				
-			}
 
 			#jiajiaozhipai{
 				background-color: #F1F100;
@@ -98,6 +94,9 @@
 				 width: 90%
 		
 			}
+			
+			
+
 			.button_text{
 				line-height: 50px; 
 			}
@@ -116,6 +115,7 @@
 				text-decoration: none;
 				font-size: 10px;
 				padding: 0 0 0 0;
+				display:inline;
 			}
 			</style>
 	</head>
@@ -172,20 +172,23 @@
 						</div>
 					</div>
 					
+						<!-- 	<span id='cnzz_stat_icon_1276896847'></span><script src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1276896847%26show%3Dpic' type='text/javascript'></script> -->
+
 				</div>		
 			</div>
 		</div>
 		
 		</body>
 	<script>
+	
 		var ua = navigator.userAgent.toLowerCase();
 		var isWeixin = ua.indexOf('micromessenger') != -1;
 		var isAndroid = ua.indexOf('android') != -1;
 		var isIos = (ua.indexOf('iphone') != -1) || (ua.indexOf('ipad') != -1);
-		if (!isWeixin) {
-		   document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css">';
-		   document.body.innerHTML = '<div class="weui_msg"><div class="weui_icon_area"><i class="weui_icon_info weui_icon_msg"></i></div><div class="weui_text_area"><h4 class="weui_msg_title">请在微信客户端打开链接</h4></div></div>';
-		}
+		 if (!isWeixin) {
+		    document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/0.4.1/weui.css">';
+		    document.body.innerHTML = '<div class="weui_msg"><div class="weui_icon_area"><i class="weui_icon_info weui_icon_msg"></i></div><div class="weui_text_area"><h4 class="weui_msg_title">请在微信客户端打开链接</h4></div></div>';
+		 }
 
 		function toYewu(){
 			window.location.href='https://jinshuju.net/f/sEEeRM';
@@ -196,5 +199,7 @@
 		function toJiajiaozhipai(){
 			window.location.href='https://jinshuju.net/f/dteJHC';
 		}
+		
+
 	</script>
 </html>
